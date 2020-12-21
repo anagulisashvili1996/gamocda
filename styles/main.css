@@ -2,7 +2,9 @@
 	width: 1280px;
 	height: 900px; 
 	background-image: url(../image/img1.jpg);
-	background-size: cover;
+	background-attachment: fixed;
+	background-size: auto;
+	background-repeat: no-repeat;
 	position: relative;
 }
 .container {
@@ -50,8 +52,6 @@ li a {
 	background-color: #325DFF;
 	bottom: 348px;
 	right: 500px;
-}
-h2 {
 	font-size: 14px;
 	font-family: 'Lato';
 	font-weight: bold;
@@ -92,24 +92,26 @@ h2 {
 	font-size: 16px;
 	font-weight: lighter;
 }
-h2 {
-	font-size: 14px;
-	font-family: 'Lato';
-	font-weight: lighter;
-	color: white;
-	margin: 25px 50px 25px 50px;
-}
 .button2 {
 	width: 307px;
 	height: 72px;
 	border: solid;
 	border-radius: 30px;
 	border-style: none;
-	text-align: center;
 	background-color: #325DFF;
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	font-family: 'Lato';
+	font-weight: lighter;
+	margin: 25px 50px 25px 50px;
 	bottom: 100px;
 	right: : 82px;
 }
+
+/* section 3 */
+
+
 
 
 
