@@ -17,7 +17,7 @@
 	justify-content: space-between;
 	align-items: center;
 }
-h3 {
+.logo {
 	margin: 57px 0 0 70px;
 	font-size: 28px;
 	color: #D9F0FF;
@@ -30,8 +30,14 @@ ul {
 li a {
 	font-size: 12px;
 	color: #D9F0FF;
-	margin: 30px;
+	margin: 25px;
 	font-family: 'Poppins';
+}
+header {
+	position: static;
+	position: fixed;
+	width: 100%;
+	right: 140px;
 }
 .title {
 	color: #FFFFFF;
@@ -110,8 +116,70 @@ li a {
 }
 
 /* section 3 */
-
-
+.relative {
+	width: 1280px;
+	height: 1161px;
+	background-color: #FAFAFA;
+	position: relative;
+}
+.absolute1 {
+	width: 1171px;
+	position: absolute;
+	top: 90px;
+	align-items: center;
+}
+.t-flex {
+	width: 1280px;
+	height: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	flex-direction: column;
+}
+.title-text {
+	font-size: 35px;
+	font-family: 'Lato';
+	font-weight: lighter;
+	margin: 0 0 20px 0;
+}
+.text {
+	font-size: 16px;
+	font-family: 'Poppins';
+	font-weight: lighter;
+	text-align: center;
+}
+.absolute2 {
+	width: 1191px;
+	position: absolute;
+	top: 265px;
+	right: 55px;
+}
+.c-flex {
+	height: 777px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.similar-box {
+	width: 371px;
+	height: 374px;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+h5 {
+	font-size: 18px;
+	font-family: 'Lato';
+	font-weight: bold;
+	margin: 170px 0 20px 0;
+}
+p {
+	font-family: 'Poppins';
+	font-weight: lighter;
+}
 
 
 
